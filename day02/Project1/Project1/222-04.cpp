@@ -1,4 +1,4 @@
-//인라인 함수
+// 인라인 함수
 #include<iostream>
 
 using namespace std;
