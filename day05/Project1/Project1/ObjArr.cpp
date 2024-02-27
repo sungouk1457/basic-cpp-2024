@@ -21,7 +21,7 @@ public:
 		age = 0;
 		cout << "called Person()" << endl;
 	}
-	void SetPersonInfo(char* myname, int myage)
+	void SetPersonInfo(char* myname, int myage) //원하는 데이터로의 초기화를 목적으로 정의된 함수
 	{
 		name = myname;
 		age = myage;

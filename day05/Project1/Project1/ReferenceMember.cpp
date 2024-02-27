@@ -22,7 +22,7 @@ private:
 
 public:
 	BBB(AAA& r, const int& n)
-		: ref(r), num(n)
+		: ref(r), num(n)//이니셜라이즈
 	{// empty constuctor body
 	}
 	void ShowYourName()

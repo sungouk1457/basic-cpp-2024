@@ -15,7 +15,8 @@ public:
 	{
 		cout << a << " " << b << endl;
 	}
-	AA(const AA& ref) {
+	AA(const AA& ref) 
+	{
 		this->a = ref.a;
 		this->b = ref.b;
 	}
