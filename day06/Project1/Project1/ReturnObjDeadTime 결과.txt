@@ -1,0 +1,14 @@
+New Project : 0000009F7F0FF634 //객체 obj주소
+New Copy obj : 0000009F7F0FF734 //객체 ob주소 
+Parm ADR : 0000009F7F0FF734 //객체 ob주소 
+New Copy obj : 0000009F7F0FF774 //임시객체주소
+Destroy obj : 0000009F7F0FF734 //객체 ob 소멸
+Destroy obj : 0000009F7F0FF774 //임시 객체 소멸
+
+New Copy obj : 0000009F7F0FF794 //객체 ob주소
+Parm ADR : 0000009F7F0FF794 //객체 ob주소
+New Copy obj : 0000009F7F0FF654 //임시객체주소
+Destroy obj : 0000009F7F0FF794 //객체 ob 소멸
+Return Obj 0000009F7F0FF654 //임시객체주소
+Destroy obj : 0000009F7F0FF654 //임시 객체 소멸
+Destroy obj : 0000009F7F0FF634 //객체 obj 소멸
