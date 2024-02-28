@@ -3,8 +3,8 @@ using namespace std;
 
 void Counter()
 {
-	//static int cnt;
-	int cnt = 0;
+	static int cnt;
+	//int cnt = 0;  
 	cnt++;
 	cout << "Current cnt : " << cnt << endl;
 }
