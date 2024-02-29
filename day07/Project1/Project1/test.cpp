@@ -3,6 +3,7 @@
 #include<cstring>
 using namespace std;
 
+class Person
 {
 private:
 	int age;
@@ -17,8 +18,8 @@ public:
 	}
 	void PesronInfo() const
 	{
-		cout << "ï¿½ï¿½ï¿½ï¿½ : " << age << endl;
-		cout << "ï¿½Ì¸ï¿½ : " << name << endl;
+		cout << "³ªÀÌ : " << age << endl;
+		cout << "ÀÌ¸§ : " << name << endl;
 	}
 	Person(Person& copy) : age(copy.age)
 	{
@@ -33,7 +34,7 @@ public:
 };
 int main()
 {
-	Person p(26,"È«ï¿½Â¿ï¿½");
+	Person p(26,"È«½Â¿í");
 	p.PesronInfo();
 	
 	Person copyp(p);
