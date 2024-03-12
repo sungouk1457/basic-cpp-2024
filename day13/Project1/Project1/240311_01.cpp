@@ -51,7 +51,6 @@ int main()
 		}
 		v.push_back(inKey);
 		sum += inKey;
-		cout << "inkey" << v[inKey] << endl;
 		cout << "sum : " << sum << endl;
 		cout << "v.size() : " << v.size() << endl;
 		cout << "sum/v.size() : " << sum / v.size() << endl;
